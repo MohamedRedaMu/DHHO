@@ -22,24 +22,24 @@ If you use this code in your research, please cite the following paper:
   doi = {https://doi.org/10.3390/s24144650},
   url = {https://www.mdpi.com/1424-8220/24/14/4650}
 }
-
+```
 
  ### AMA Style:
  ``` AMA Style
 Reda M, Onsy A, Haikal AY, Ghanbari A. Optimizing the Steering of Driverless Personal Mobility Pods with a Novel Differential Harris Hawks Optimization Algorithm (DHHO) and Encoder Modeling. Sensors. 2024; 24(14):4650. https://doi.org/10.3390/s24144650
-
+```
 
  ### Chicago/Turabian Style
  ``` Chicago/Turabian Style
 Reda, Mohamed, Ahmed Onsy, Amira Y. Haikal, and Ali Ghanbari. 2024. "Optimizing the Steering of Driverless Personal Mobility Pods with a Novel Differential Harris Hawks Optimization Algorithm (DHHO) and Encoder Modeling." Sensors 24, no. 14: 4650. https://doi.org/10.3390/s24144650
-
+```
 
    
 ## Code Citation
 If you adapt or use this code, please cite it as follows:
-
+```
 Mohamed Reda. (2024). MATLAB implementation of the Dynamic Harris Hawks Optimization (DHHO) Algorithm. Available at: [https://github.com/MohamedRedaMu/DHHO]
-
+```
 
 
 
@@ -59,5 +59,4 @@ Mohamed Reda. (2024). MATLAB implementation of the Dynamic Harris Hawks Optimiza
         mramohamed@uclan.ac.uk
 
 
-%***************************************************************************************
-%***************************************************************************************
+
