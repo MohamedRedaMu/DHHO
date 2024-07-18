@@ -1,2 +1,3 @@
-*.m linguist-language=MATLAB
-*.cpp linguist-language=C++
+# Linguist overrides
+*.m linguist-detectable
+*.cpp linguist-detectable=false
