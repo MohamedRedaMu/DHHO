@@ -1,0 +1,2 @@
+*.m linguist-language=MATLAB
+*.cpp linguist-language=C++
