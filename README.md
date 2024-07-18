@@ -4,6 +4,12 @@
 
 This repository contains the MATLAB implementation of the Differential Harris Hawks Optimization (DHHO) Algorithm, developed for optimizing the steering of driverless personal mobility pods. The algorithm is part of the research published in Sensors journal.
 
+## Paper Link
+
+You can access the open source paper in Sensors Journal on MDPI via the following link: [Paper link](https://www.mdpi.com/1424-8220/24/14/4650).
+
+
+
 ## Citation
 
 If you use this code in your research, please cite the following paper:
