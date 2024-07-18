@@ -1,6 +1,6 @@
 function [goalReached, GlobalBest, countFE] = DHHO_algorithm()
 
-    %% *********************** Function Description *********************
+    %% *********************** Function Description ********************
     %{
     This function implements the Differential Harris Hawks Optimization (DHHO) algorithm.
     Outputs:
