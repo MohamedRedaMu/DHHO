@@ -5,7 +5,7 @@ Citation for the Differential Harris Hawks Optimization (DHHO) Algorithm MATLAB 
 %*****************************************************************************************
 If you use this code in your research, please cite the following paper:
     
- %% BibTex:
+ BibTex:
  @article{reda2024Optimizing,
           title = {Optimizing the Steering of Driverless Personal Mobility Pods with a Novel Differential Harris Hawks Optimization Algorithm (DHHO) and Encoder Modeling},
           author = {Reda, Mohamed and Onsy, Ahmed and Haikal, Amira Y and Ghanbari, Ali},
@@ -19,12 +19,12 @@ If you use this code in your research, please cite the following paper:
           url = {https://www.mdpi.com/1424-8220/24/14/4650}
         }
 
- %% AMA Style
+ AMA Style
   Reda M, Onsy A, Haikal AY, Ghanbari A. Optimizing the Steering of Driverless Personal Mobility Pods with a Novel Differential Harris Hawks Optimization 
   Algorithm (DHHO) and Encoder Modeling. Sensors. 2024; 24(14):4650. https://doi.org/10.3390/s24144650
 
     
- %% Chicago/Turabian Style
+ Chicago/Turabian Style
    Reda, Mohamed, Ahmed Onsy, Amira Y. Haikal, and Ali Ghanbari. 2024. "Optimizing the Steering of Driverless Personal Mobility Pods with a Novel Differential
    Harris Hawks Optimization Algorithm (DHHO) and Encoder Modeling" Sensors 24, no. 14: 4650. https://doi.org/10.3390/s24144650
         
