@@ -1,23 +1,28 @@
-Citation for the Differential Harris Hawks Optimization (DHHO) Algorithm MATLAB Code
+# MATLAB Implementation of the Differential Harris Hawks Optimization (DHHO) Algorithm
 
+## Description
 
-%******************************* Paper Citation ******************************************
-%*****************************************************************************************
+This repository contains the MATLAB implementation of the Differential Harris Hawks Optimization (DHHO) Algorithm, developed for optimizing the steering of driverless personal mobility pods. The algorithm is part of the research published in Sensors journal.
+
+## Citation
+
 If you use this code in your research, please cite the following paper:
-    
- BibTex:
- @article{reda2024Optimizing,
-          title = {Optimizing the Steering of Driverless Personal Mobility Pods with a Novel Differential Harris Hawks Optimization Algorithm (DHHO) and Encoder Modeling},
-          author = {Reda, Mohamed and Onsy, Ahmed and Haikal, Amira Y and Ghanbari, Ali},
-          journal = {Sensors},
-          volume = {24},
-          number = {14},
-          pages = {4650},
-          year = {2024},
-          publisher = {MDPI},
-          doi = {https://doi.org/10.3390/s24144650},
-          url = {https://www.mdpi.com/1424-8220/24/14/4650}
-        }
+
+### BibTeX:
+```bibtex
+@article{reda2024Optimizing,
+  title = {Optimizing the Steering of Driverless Personal Mobility Pods with a Novel Differential Harris Hawks Optimization Algorithm (DHHO) and Encoder Modeling},
+  author = {Reda, Mohamed and Onsy, Ahmed and Haikal, Amira Y and Ghanbari, Ali},
+  journal = {Sensors},
+  volume = {24},
+  number = {14},
+  pages = {4650},
+  year = {2024},
+  publisher = {MDPI},
+  doi = {https://doi.org/10.3390/s24144650},
+  url = {https://www.mdpi.com/1424-8220/24/14/4650}
+}
+
 
  AMA Style
   Reda M, Onsy A, Haikal AY, Ghanbari A. Optimizing the Steering of Driverless Personal Mobility Pods with a Novel Differential Harris Hawks Optimization 
