@@ -24,31 +24,27 @@ If you use this code in your research, please cite the following paper:
 }
 
 
- AMA Style
-  Reda M, Onsy A, Haikal AY, Ghanbari A. Optimizing the Steering of Driverless Personal Mobility Pods with a Novel Differential Harris Hawks Optimization 
-  Algorithm (DHHO) and Encoder Modeling. Sensors. 2024; 24(14):4650. https://doi.org/10.3390/s24144650
-
-    
- Chicago/Turabian Style
-   Reda, Mohamed, Ahmed Onsy, Amira Y. Haikal, and Ali Ghanbari. 2024. "Optimizing the Steering of Driverless Personal Mobility Pods with a Novel Differential
-   Harris Hawks Optimization Algorithm (DHHO) and Encoder Modeling" Sensors 24, no. 14: 4650. https://doi.org/10.3390/s24144650
-        
+ ### AMA Style:
+ ``` AMA Style
+Reda M, Onsy A, Haikal AY, Ghanbari A. Optimizing the Steering of Driverless Personal Mobility Pods with a Novel Differential Harris Hawks Optimization Algorithm (DHHO) and Encoder Modeling. Sensors. 2024; 24(14):4650. https://doi.org/10.3390/s24144650
 
 
-%****************************** Code Citation ************************************
-%*********************************************************************************
-Code implementation and description:
+ ### Chicago/Turabian Style
+ ``` Chicago/Turabian Style
+Reda, Mohamed, Ahmed Onsy, Amira Y. Haikal, and Ali Ghanbari. 2024. "Optimizing the Steering of Driverless Personal Mobility Pods with a Novel Differential Harris Hawks Optimization Algorithm (DHHO) and Encoder Modeling." Sensors 24, no. 14: 4650. https://doi.org/10.3390/s24144650
+
+
+   
+## Code Citation
+If you adapt or use this code, please cite it as follows:
 
 Mohamed Reda. (2024). MATLAB implementation of the Dynamic Harris Hawks Optimization (DHHO) Algorithm. Available at: [https://github.com/MohamedRedaMu/DHHO]
 
-Please ensure you cite this code as well if you adapt or use it in your work.
 
 
-%****************************** Contact Information ************************************
-%***************************************************************************************
 
+## Contact Information:
 
-Contact Information:
     For questions or further information, please contact:
     Author Name:
         Mohamed Reda
