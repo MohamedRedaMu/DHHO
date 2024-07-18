@@ -26,7 +26,7 @@ If you use this code in your research, please cite the following paper:
   year = {2024},
   issn = {1424-8220},
   publisher = {MDPI},
-  doi = {https://doi.org/10.3390/s24144650},
+  doi = {10.3390/s24144650},
   url = {https://www.mdpi.com/1424-8220/24/14/4650}
 }
 ```
