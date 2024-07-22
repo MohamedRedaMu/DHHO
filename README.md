@@ -22,13 +22,15 @@ If you use this code in your research, please cite the following paper:
   journal = {Sensors},
   volume = {24},
   number = {14},
-  ARTICLE-NUMBER = {4650},
+  pages = {4650},
   year = {2024},
   issn = {1424-8220},
   publisher = {MDPI},
   doi = {10.3390/s24144650},
   url = {https://www.mdpi.com/1424-8220/24/14/4650}
 }
+
+
 ```
 
  ### AMA Style:
