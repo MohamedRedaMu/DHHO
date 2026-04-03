@@ -1,20 +1,95 @@
-# MATLAB Implementation of the Differential Harris Hawks Optimization (DHHO) Algorithm
+# DHHO-Algorithm
 
-## Description
+Differential Harris Hawks Optimization (DHHO) Algorithm for Engineering Optimization
 
-This repository contains the MATLAB implementation of the Differential Harris Hawks Optimization (DHHO) Algorithm, developed for optimizing the steering of driverless personal mobility pods. The algorithm is part of the research published in Sensors journal.
+Official MATLAB implementation of the DHHO algorithm.
 
-## Paper Link
+---
 
-You can access the open source paper in Sensors Journal on MDPI via the following link: [Paper link](https://www.mdpi.com/1424-8220/24/14/4650).
+## 📄 Paper
 
+Mohamed Reda, Ahmed Onsy, Amira Y. Haikal, and Ali Ghanbari
+**Optimizing the Steering of Driverless Personal Mobility Pods with a Novel Differential Harris Hawks Optimization Algorithm (DHHO) and Encoder Modeling**
+Sensors, 2024
+DOI: https://doi.org/10.3390/s24144650
 
+---
 
-## Citation
+## 📘 Overview
 
-If you use this code in your research, please cite the following paper:
+DHHO is an enhanced version of the Harris Hawks Optimization (HHO) algorithm, designed to improve:
 
-### BibTeX:
+* Exploration–exploitation balance
+* Convergence speed
+* Solution accuracy in engineering optimization
+
+### Key Features
+
+* Differential mutation mechanism
+* Adaptive exploration strategy
+* Hybrid optimization behavior
+* Improved convergence stability
+
+---
+
+## 📂 Repository Structure
+
+```text
+DHHO/
+│
+├── DHHO_algorithm.m
+├── cost_cec2020.m
+│
+├── cec20_func.cpp
+├── cec20_func.mexw64
+│
+├── input_data/
+│   └── (CEC data files)
+│
+├── DHHO_paper.pdf
+├── cec2020_definitions.pdf
+│
+├── README.md
+├── LICENSE
+├── CITATION.cff
+├── .gitignore
+└── .gitattributes
+```
+
+---
+
+## ⚙️ Requirements
+
+* MATLAB (R2021a or later recommended)
+* Statistics Toolbox (if random sampling is used)
+
+---
+
+## ▶️ How to Run
+
+Open MATLAB, set the current folder to the repository root, then run:
+
+```matlab
+[goalReached, GlobalBest, countFE] = DHHO_algorithm();
+```
+
+### Current default settings inside the file
+
+```matlab
+fNo = 3;
+nd  = 10;
+lb  = -100;
+ub  = 100;
+```
+
+The current implementation uses the CEC2020 benchmark wrapper `cost_cec2020.m`.
+
+---
+
+## 📚 Citation
+
+If you use this code, please cite:
+
 ```bibtex
 @article{reda2024Optimizing,
   title = {Optimizing the Steering of Driverless Personal Mobility Pods with a Novel Differential Harris Hawks Optimization Algorithm (DHHO) and Encoder Modeling},
@@ -24,48 +99,47 @@ If you use this code in your research, please cite the following paper:
   number = {14},
   pages = {4650},
   year = {2024},
-  issn = {1424-8220},
-  publisher = {MDPI},
-  doi = {10.3390/s24144650},
-  url = {https://www.mdpi.com/1424-8220/24/14/4650}
+  doi = {10.3390/s24144650}
 }
-
-
 ```
 
- ### AMA Style:
- ``` AMA Style
-Reda M, Onsy A, Haikal AY, Ghanbari A. Optimizing the Steering of Driverless Personal Mobility Pods with a Novel Differential Harris Hawks Optimization Algorithm (DHHO) and Encoder Modeling. Sensors. 2024; 24(14):4650. https://doi.org/10.3390/s24144650
-```
+---
 
- ### Chicago/Turabian Style
- ``` Chicago/Turabian Style
-Reda, Mohamed, Ahmed Onsy, Amira Y. Haikal, and Ali Ghanbari. 2024. "Optimizing the Steering of Driverless Personal Mobility Pods with a Novel Differential Harris Hawks Optimization Algorithm (DHHO) and Encoder Modeling." Sensors 24, no. 14: 4650. https://doi.org/10.3390/s24144650
-```
+## 📜 License
 
-   
-## Code Citation
-If you adapt or use this code, please cite it as follows:
-```
-Mohamed Reda. (2024). MATLAB implementation of the Dynamic Harris Hawks Optimization (DHHO) Algorithm. Available at: [https://github.com/MohamedRedaMu/DHHO]
-```
+This project is released under the MIT License.
 
+---
 
+## 📧 Contact
 
-## Contact Information:
+**Dr. Mohamed Reda**
+University of Central Lancashire, UK
+Mansoura University, Egypt
 
-    For questions or further information, please contact:
-    Author Name:
-        Mohamed Reda
-
-    Affiliation:
-        1- School of Engineering, University of Central Lancashire, Preston, PR1 2HE, UK
-        2- Computers and Control Systems Engineering Department, Faculty of Engineering, Mansoura University, Mansoura, 35516, Egypt
-
-    Emails:
-        mohamed.reda.mu@gmail.com;
-        mohamed.reda@mans.edu.eg;
-        mramohamed@uclan.ac.uk
+* 📩 Personal: [mohamed.reda.mu@gmail.com](mailto:mohamed.reda.mu@gmail.com)
+* 📩 Academic: [mohamed.reda@mans.edu.eg](mailto:mohamed.reda@mans.edu.eg)
 
 
+---
 
+## 🌐 Academic Profiles
+
+* ORCID: https://orcid.org/0000-0002-6865-1315
+* Google Scholar: https://scholar.google.com/citations?user=JmuB2qwAAAAJ
+* Scopus: https://www.scopus.com/authid/detail.uri?authorId=57220204540
+
+---
+
+## 🔗 Professional Links
+
+* LinkedIn: https://www.linkedin.com/in/mraf
+* ResearchGate: https://www.researchgate.net/profile/Mohamed-Reda-8
+* Academia: https://mansoura.academia.edu/MohamedRedaAboelfotohMohamed
+* MATLAB Central: https://uk.mathworks.com/matlabcentral/profile/authors/36082525
+
+---
+
+## 🙏 Acknowledgement
+
+This repository accompanies the DHHO paper published in Sensors.
